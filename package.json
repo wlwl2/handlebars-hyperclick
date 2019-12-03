@@ -1,7 +1,7 @@
 {
   "name": "handlebars-hyperclick",
   "main": "./lib/handlebars-hyperclick",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A plugin for Atom's Hyperclick package to support Handlebars partials.",
   "keywords": [
     "handlebars",
