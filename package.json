@@ -4,18 +4,24 @@
   "version": "0.0.0",
   "description": "A short description of your package",
   "keywords": [],
-  "activationCommands": {
-    "atom-workspace": "handlebars-hyperclick:toggle"
-  },
   "repository": "https://github.com/atom/handlebars-hyperclick",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {},
   "devDependencies": {
     "eslint": "^6.7.2",
     "eslint-config-prettier": "^6.7.0",
     "prettier": "^1.19.1"
+  },
+  "package-deps": [
+    "hyperclick"
+  ],
+  "providedServices": {
+    "hyperclick": {
+      "versions": {
+        "0.1.0": "getProvider"
+      }
+    }
   }
 }
