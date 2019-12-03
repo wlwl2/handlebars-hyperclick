@@ -1,5 +1,5 @@
-# handlebars-hyperclick package
+# Handlebars Hyperclick
 
-A short description of your package.
+A plugin for [Atom's Hyperclick package](https://github.com/facebook-atom/hyperclick) to support Handlebars partials.
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+By default, the current project root directory is used as the partials directory. You can change this by specifying `"hbsPartialsDir": "./my-partials-dir"` in `package.json`.
