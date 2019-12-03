@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle handlebars-hyperclick",
+        "command": "handlebars-hyperclick:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "handlebars-hyperclick",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "handlebars-hyperclick:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
